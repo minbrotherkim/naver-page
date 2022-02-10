@@ -1,18 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Header";
+import Body from "./Body";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        네이버 페이지를 올릴 예정입니다.
-        <br/>
-        <br/>
-        TEST!!! TEST!!
-        <br/>
-        <br/>
-        TEST222222!!!!!!
-      </header>
+    <div>
+      <Header />
+      <Body />
     </div>
   );
 }
