@@ -10,7 +10,7 @@ function Header() {
         </div>
         <div className="searchArea">
           <div className="searchBar">
-            <div>검색창</div>
+            <div>검색창</div> 
             <div>검색버튼</div>
           </div>
         </div>

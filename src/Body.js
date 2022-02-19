@@ -1,37 +1,24 @@
 import React from "react";
+import "./style/Body.css"
 
 function Body() {
   return (
-    <body>
-      <left>
-          <adv1>
-              큰 광고
-          </adv1>
-          <news>
-              헤드라인 뉴스
-          </news>
-          <stand>
-              뉴스 스탠드
-          </stand>
-          <article>
-              오늘 읽을만한 글
-          </article>
-      </left>
-      <right>
-          <info>
-              회원정보
-          </info>
-          <smallnews>
-              작은 뉴스들
-          </smallnews>
-          <adv2>
-              작은 광고
-          </adv2>
-          <shopping>
-              쇼핑
-          </shopping>
-      </right>
-    </body>
+    <div className="bodyGroup">
+      <div className="body">
+        <div className="left">
+          <div className="advBig">큰 광고</div>
+          <div className="news">헤드라인 뉴스</div>
+          <div className="stand">뉴스 스탠드</div>
+          <div className="article">오늘 읽을만한 글</div>
+        </div>
+        <div className="right">
+          <div className="info">회원정보</div>
+          <div className="advSmall">작은 뉴스들</div>
+          <div className="advSmall2">작은 광고</div>
+          <div className="shopping">쇼핑</div>
+        </div>
+      </div>
+    </div>
   );
 }
 
